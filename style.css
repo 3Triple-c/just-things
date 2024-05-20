@@ -1,0 +1,161 @@
+* {
+  margin: auto;
+}
+body {
+  background: linear-gradient(#a619f8, aqua);
+  padding: 5rem;
+}
+.phone {
+  width: 290px;
+  height: 590px;
+  background: conic-gradient(#a619f8, red, orange, blue);
+  position: relative;
+  margin: 0 auto;
+  border: 6px solid black;
+  border-radius: 50px;
+}
+
+.round-up {
+  width: 100px;
+  background: black;
+  position: absolute;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  left: 5.5rem;
+  top: 5px;
+  border: 3.5px solid black;
+  margin: 0 auto;
+}
+.button-line {
+  display: flex;
+  width: 100px;
+  background: #fff;
+  border: 2px solid snow;
+  margin: 0 auto;
+  border-radius: 90px;
+  position: absolute;
+  top: 580px;
+  left: 5.8rem;
+}
+.time {
+  position: absolute;
+  top: 55px;
+  font-stretch: narrower;
+  font-weight: 13;
+  left: 4.9rem;
+  font-size: 70px;
+  /* font-style: oblique; */
+  color: snow;
+  font-family: helvetica;
+}
+.date {
+  position: absolute;
+  top: 45px;
+  left: 4.7rem;
+  font-size: 14px;
+  font-weight: 40px;
+  font-family: sans-serif;
+  color: snow;
+}
+.notification-1 {
+  background: silver;
+  width: 278px;
+  height: 73px;
+  position: absolute;
+  top: 164px;
+  left: 6px;
+  opacity: 0.9;
+  mix-blend-mode: luminosity;
+  border-radius: 8px;
+}
+.notification-2 {
+  background: silver;
+  width: 278px;
+  height: 73px;
+  position: absolute;
+  top: 243px;
+  left: 6px;
+  opacity: 0.9;
+  mix-blend-mode: luminosity;
+  border-radius: 8px;
+}
+.notification-3 {
+  background: silver;
+  width: 278px;
+  height: 73px;
+  position: absolute;
+  top: 322px;
+  left: 6px;
+  opacity: 0.9;
+  mix-blend-mode: luminosity;
+  border-radius: 8px;
+}
+
+.circle-1 {
+  background: black;
+  height: 33px;
+  width: 33px;
+  position: absolute;
+  top: 510px;
+  left: 30px;
+  border-radius: 100px;
+  opacity: 0.2;
+}
+.circle-2 {
+  background-color: #000;
+  height: 33px;
+  width: 33px;
+  position: absolute;
+  top: 510px;
+  left: 220px;
+  border-radius: 100px;
+  opacity: 0.2;
+}
+h3 {
+  position: absolute;
+  left: 235px;
+  font-size: 70%;
+  top: 7px;
+}
+h4 {
+  position: absolute;
+  font-size: small;
+  top: 29px;
+  left: 10px;
+}
+h5 {
+  left: 23px;
+  position: absolute;
+  font-size: x-small;
+  top: 7px;
+}
+h6 {
+  position: absolute;
+  top: 52px;
+  left: 10px;
+  font-size: 12px;
+}
+.lock {
+  /* position: absolute; */
+  width: 25px;
+  height: 27px;
+  bottom: 60px;
+  mix-blend-mode: hard-light;
+  border-radius: 49%;
+}
+.torch {
+  width: 35px;
+  position: absolute;
+  border-radius: 23px;
+  left: -1px;
+  top: 0.2px;
+}
+.camera {
+  width: 35px;
+  position: absolute;
+  border-radius: 23px;
+  left: -1px;
+  top: 0.2px;
+}
