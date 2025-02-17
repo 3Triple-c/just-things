@@ -1,0 +1,191 @@
+* {
+  margin: 0 auto;
+}
+body {
+  background:  linear-gradient(#a619f8, aqua);
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+.phone {
+  width: 290px;
+  height: 590px;
+  background: url(wallpaper1.jpeg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+  border: 6px solid#272727;
+  border-radius: 50px;
+  
+}
+
+.round-up {
+  width: 100px;
+  background: black;
+  position: absolute;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  left: 5.5rem;
+  top: 5px;
+  border: 3.5px solid black;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.bottom-line{
+  display: flex;
+  width: 100px;
+  background: #fff;
+  border: 2px solid snow;
+  margin: 0 auto;
+  border-radius: 90px;
+  position: absolute;
+  top: 575px;
+  left: 5.8rem;
+  cursor: pointer;
+  user-select: none;
+}
+.time {
+  position: absolute;
+  top: 60px;
+  font-stretch: narrower;
+  font-weight: 13;
+  left: 4rem;
+  font-size: 70px;
+  /* font-style: oblique; */
+  color: snow;
+  font-family: helvetica;
+}
+.date {
+  position: absolute;
+  top: 45px;
+  left: 5rem;
+  font-size: 14px;
+  font-weight: 40px;
+  font-family: sans-serif;
+  color: snow;
+}
+.notification-1 {
+  background: silver;
+  width: 278px;
+  height: 73px;
+  position: absolute;
+  top: 164px;
+  left: 6px;
+  opacity: 0.8;
+  mix-blend-mode: luminosity;
+  border-radius: 8px;
+}
+
+.circle-1 {
+  background: black;
+  height: 33px;
+  width: 33px;
+  position: absolute;
+  top: 510px;
+  left: 30px;
+  border-radius: 100px;
+  opacity: 0.2;
+}
+.circle-2 {
+  background-color: #000;
+  height: 33px;
+  width: 33px;
+  position: absolute;
+  top: 510px;
+  left: 220px;
+  border-radius: 100px;
+  opacity: 0.2;
+}
+h3 {
+  position: absolute;
+  left: 235px;
+  font-size: 70%;
+  top: 7px;
+}
+h4 {
+  position: absolute;
+  font-size: small;
+  top: 29px;
+  left: 10px;
+}
+h5 {
+  left: 23px;
+  position: absolute;
+  font-size: x-small;
+  top: 7px;
+}
+h6 {
+  position: absolute;
+  top: 52px;
+  left: 10px;
+  font-size: 12px;
+}
+.lock {
+  /* position: absolute; */
+  width: 25px;
+  height: 27px;
+  bottom: 60px;
+  mix-blend-mode: hard-light;
+  border-radius: 49%;
+  transition: transform 0.5s ease-in-out;
+}
+.torch {
+  width: 35px;
+  position: absolute;
+  border-radius: 23px;
+  left: -1px;
+  top: 0.2px;
+}
+.camera {
+  width: 35px;
+  position: absolute;
+  border-radius: 23px;
+  left: -1px;
+  top: 0.2px;
+}
+.hidden {
+  display: none;
+}
+/* .battery{
+  position: absolute;
+  width: 22px;
+  height: 10px;
+  color: red;
+  background: wheat;
+  right: 1rem;
+  top: 1rem;
+
+} */
+
+#unlockScreen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: green;
+  text-align: center;
+}
+#newScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 44px;
+  background: url(cute.jpg) no-repeat center center;
+  background-size: cover;
+  filter: brightness(85%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: black;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+#newScreen.show {
+  opacity: 1;
+}
